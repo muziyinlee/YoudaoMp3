@@ -4,3 +4,6 @@
 >基于Beta-y的项目：[https://github.com/Beta-y/YoudaoMp3](https://github.com/Beta-y/YoudaoMp3)
 
 修复了一下接口
+
+windows打包
+pyinstaller -F -w -i logo.ico Rainning-Words.py
