@@ -75,10 +75,11 @@ class Youdao:
     def _getURL(self):
         '''
         私有函数，生成发音的目标URL
+        https://dict.youdao.com/dictvoice?audio=${word}&type=1
         http://dict.youdao.com/dictvoice?&audio=单词&type=2"
         '''
         word_tmp = self._word.split()
-        self._url = r'http://dict.youdao.com/dictvoice?' + r'&audio='
+        self._url = r'https://dict.youdao.com/dictvoice?' + r'audio='
         # 短语
         if len(word_tmp) > 1:
             for i in range(len(word_tmp)-1):
